@@ -29,7 +29,7 @@ const client = new JdProject({
   apiKey: process.env['PETSTORE_API_KEY'], // This is the default and can be omitted
 });
 
-const order = await client.petst0re.orders.create({ petId: 1, quantity: 1, status: 'placed' });
+const order = await client.petst00re.orders.create({ petId: 1, quantity: 1, status: 'placed' });
 
 console.log(order.id);
 ```
@@ -46,7 +46,7 @@ const client = new JdProject({
   apiKey: process.env['PETSTORE_API_KEY'], // This is the default and can be omitted
 });
 
-const response: JdProject.Petst0reListInventoryResponse = await client.petst0re.listInventory();
+const response: JdProject.Petst00reListInventoryResponse = await client.petst00re.listInventory();
 ```
 
 Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
@@ -59,7 +59,7 @@ a subclass of `APIError` will be thrown:
 
 <!-- prettier-ignore -->
 ```ts
-const response = await client.petst0re.listInventory().catch(async (err) => {
+const response = await client.petst00re.listInventory().catch(async (err) => {
   if (err instanceof JdProject.APIError) {
     console.log(err.status); // 400
     console.log(err.name); // BadRequestError
@@ -99,7 +99,7 @@ const client = new JdProject({
 });
 
 // Or, configure per-request:
-await client.petst0re.listInventory({
+await client.petst00re.listInventory({
   maxRetries: 5,
 });
 ```
@@ -116,7 +116,7 @@ const client = new JdProject({
 });
 
 // Override per-request:
-await client.petst0re.listInventory({
+await client.petst00re.listInventory({
   timeout: 5 * 1000,
 });
 ```
@@ -139,11 +139,11 @@ Unlike `.asResponse()` this method consumes the body, returning once it is parse
 ```ts
 const client = new JdProject();
 
-const response = await client.petst0re.listInventory().asResponse();
+const response = await client.petst00re.listInventory().asResponse();
 console.log(response.headers.get('X-My-Header'));
 console.log(response.statusText); // access the underlying Response object
 
-const { data: response, response: raw } = await client.petst0re.listInventory().withResponse();
+const { data: response, response: raw } = await client.petst00re.listInventory().withResponse();
 console.log(raw.headers.get('X-My-Header'));
 console.log(response);
 ```
@@ -225,7 +225,7 @@ parameter. This library doesn't validate at runtime that the request matches the
 send will be sent as-is.
 
 ```ts
-client.petst0re.orders.create({
+client.petst00re.orders.create({
   // ...
   // @ts-expect-error baz is not yet public
   baz: 'undocumented option',
