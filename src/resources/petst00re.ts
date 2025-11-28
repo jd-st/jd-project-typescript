@@ -1,3 +1,3 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-export * from './petst0re/index';
+export * from './petst00re/index';
