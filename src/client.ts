@@ -40,7 +40,7 @@ import {
   UserUpdateParams,
   Users,
 } from './resources/users';
-import { Petst00re, Petst00reListInventoryResponse } from './resources/petst00re/petst00re';
+import { Petst000re, Petst000reListInventoryResponse } from './resources/petst000re/petst000re';
 import { type Fetch } from './internal/builtin-types';
 import { HeadersLike, NullableHeaders, buildHeaders } from './internal/headers';
 import { FinalRequestOptions, RequestOptions } from './internal/request-options';
@@ -723,12 +723,12 @@ export class JdProject {
   static toFile = Uploads.toFile;
 
   pets: API.Pets = new API.Pets(this);
-  petst00re: API.Petst00re = new API.Petst00re(this);
+  petst000re: API.Petst000re = new API.Petst000re(this);
   users: API.Users = new API.Users(this);
 }
 
 JdProject.Pets = Pets;
-JdProject.Petst00re = Petst00re;
+JdProject.Petst000re = Petst000re;
 JdProject.Users = Users;
 
 export declare namespace JdProject {
@@ -749,7 +749,10 @@ export declare namespace JdProject {
     type PetUploadImageParams as PetUploadImageParams,
   };
 
-  export { Petst00re as Petst00re, type Petst00reListInventoryResponse as Petst00reListInventoryResponse };
+  export {
+    Petst000re as Petst000re,
+    type Petst000reListInventoryResponse as Petst000reListInventoryResponse,
+  };
 
   export {
     Users as Users,
