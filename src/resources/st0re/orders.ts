@@ -13,14 +13,14 @@ export class Orders extends APIResource {
    *
    * @example
    * ```ts
-   * const order = await client.petst000re.orders.create();
+   * const order = await client.st0re.orders.create();
    * ```
    */
   create(
     body: OrderCreateParams | null | undefined = {},
     options?: RequestOptions,
   ): APIPromise<Shared.Order> {
-    return this._client.post('/petst000re/order', { body, ...options });
+    return this._client.post('/st0re/order', { body, ...options });
   }
 
   /**
@@ -29,11 +29,11 @@ export class Orders extends APIResource {
    *
    * @example
    * ```ts
-   * const order = await client.petst000re.orders.retrieve(0);
+   * const order = await client.st0re.orders.retrieve(0);
    * ```
    */
   retrieve(orderID: number, options?: RequestOptions): APIPromise<Shared.Order> {
-    return this._client.get(path`/petst000re/order/${orderID}`, options);
+    return this._client.get(path`/st0re/order/${orderID}`, options);
   }
 
   /**
@@ -42,11 +42,11 @@ export class Orders extends APIResource {
    *
    * @example
    * ```ts
-   * await client.petst000re.orders.delete(0);
+   * await client.st0re.orders.delete(0);
    * ```
    */
   delete(orderID: number, options?: RequestOptions): APIPromise<void> {
-    return this._client.delete(path`/petst000re/order/${orderID}`, {
+    return this._client.delete(path`/st0re/order/${orderID}`, {
       ...options,
       headers: buildHeaders([{ Accept: '*/*' }, options?.headers]),
     });
