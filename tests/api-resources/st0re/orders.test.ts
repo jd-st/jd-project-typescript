@@ -10,7 +10,7 @@ const client = new JdProject({
 describe('resource orders', () => {
   // Prism tests are disabled
   test.skip('create', async () => {
-    const responsePromise = client.petst00re.orders.create();
+    const responsePromise = client.st0re.orders.create();
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -24,7 +24,7 @@ describe('resource orders', () => {
   test.skip('create: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
-      client.petst00re.orders.create(
+      client.st0re.orders.create(
         {
           id: 10,
           complete: true,
@@ -40,7 +40,7 @@ describe('resource orders', () => {
 
   // Prism tests are disabled
   test.skip('retrieve', async () => {
-    const responsePromise = client.petst00re.orders.retrieve(0);
+    const responsePromise = client.st0re.orders.retrieve(0);
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -52,7 +52,7 @@ describe('resource orders', () => {
 
   // Prism tests are disabled
   test.skip('delete', async () => {
-    const responsePromise = client.petst00re.orders.delete(0);
+    const responsePromise = client.st0re.orders.delete(0);
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
