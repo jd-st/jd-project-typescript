@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.1 (2025-12-20)
+
+Full Changelog: [v0.2.0...v0.2.1](https://github.com/jd-st/jd-project-typescript/compare/v0.2.0...v0.2.1)
+
+### Chores
+
+* **internal:** codegen related update ([6e4db5a](https://github.com/jd-st/jd-project-typescript/commit/6e4db5a09d21608e29a92c9467e473e053e2d763))
+
 ## 0.2.0 (2025-12-16)
 
 Full Changelog: [v0.1.0...v0.2.0](https://github.com/jd-st/jd-project-typescript/compare/v0.1.0...v0.2.0)
