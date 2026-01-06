@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.2 (2026-01-06)
+
+Full Changelog: [v0.2.1...v0.2.2](https://github.com/jd-st/jd-project-typescript/compare/v0.2.1...v0.2.2)
+
+### Chores
+
+* update SDK settings ([fead0c8](https://github.com/jd-st/jd-project-typescript/commit/fead0c85dde255f1da114b243571395e78d38f44))
+
 ## 0.2.1 (2026-01-06)
 
 Full Changelog: [v0.2.0...v0.2.1](https://github.com/jd-st/jd-project-typescript/compare/v0.2.0...v0.2.1)
