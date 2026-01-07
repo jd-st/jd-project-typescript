@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.3 (2026-01-07)
+
+Full Changelog: [v0.2.2...v0.2.3](https://github.com/jd-st/jd-project-typescript/compare/v0.2.2...v0.2.3)
+
+### Chores
+
+* break long lines in snippets into multiline ([3c90dd2](https://github.com/jd-st/jd-project-typescript/commit/3c90dd226c45a217257d8da4c9260ab3183d2d1a))
+
 ## 0.2.2 (2026-01-06)
 
 Full Changelog: [v0.2.1...v0.2.2](https://github.com/jd-st/jd-project-typescript/compare/v0.2.1...v0.2.2)
