@@ -7,10 +7,10 @@ const client = new JdProject({
   baseURL: process.env['TEST_API_BASE_URL'] ?? 'http://127.0.0.1:4010',
 });
 
-describe('resource st0re', () => {
+describe('resource st00re', () => {
   // Prism tests are disabled
   test.skip('listInventory', async () => {
-    const responsePromise = client.st0re.listInventory();
+    const responsePromise = client.st00re.listInventory();
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;

@@ -6,7 +6,7 @@ import { OrderCreateParams, Orders } from './orders';
 import { APIPromise } from '../../core/api-promise';
 import { RequestOptions } from '../../internal/request-options';
 
-export class St0re extends APIResource {
+export class St00re extends APIResource {
   orders: OrdersAPI.Orders = new OrdersAPI.Orders(this._client);
 
   /**
@@ -14,20 +14,20 @@ export class St0re extends APIResource {
    *
    * @example
    * ```ts
-   * const response = await client.st0re.listInventory();
+   * const response = await client.st00re.listInventory();
    * ```
    */
-  listInventory(options?: RequestOptions): APIPromise<St0reListInventoryResponse> {
-    return this._client.get('/st0re/inventory', options);
+  listInventory(options?: RequestOptions): APIPromise<St00reListInventoryResponse> {
+    return this._client.get('/st00re/inventory', options);
   }
 }
 
-export type St0reListInventoryResponse = { [key: string]: number };
+export type St00reListInventoryResponse = { [key: string]: number };
 
-St0re.Orders = Orders;
+St00re.Orders = Orders;
 
-export declare namespace St0re {
-  export { type St0reListInventoryResponse as St0reListInventoryResponse };
+export declare namespace St00re {
+  export { type St00reListInventoryResponse as St00reListInventoryResponse };
 
   export { Orders as Orders, type OrderCreateParams as OrderCreateParams };
 }
