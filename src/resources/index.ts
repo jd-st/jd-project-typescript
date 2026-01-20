@@ -15,7 +15,7 @@ export {
   type PetUpdateByIDParams,
   type PetUploadImageParams,
 } from './pets';
-export { St0re, type St0reListInventoryResponse } from './st0re/st0re';
+export { St000re, type St000reListInventoryResponse } from './st000re/st000re';
 export {
   Users,
   type User,

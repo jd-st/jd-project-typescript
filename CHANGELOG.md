@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.3.0 (2026-01-20)
+
+Full Changelog: [v0.2.2...v0.3.0](https://github.com/jd-st/jd-project-typescript/compare/v0.2.2...v0.3.0)
+
+### Features
+
+* **api:** api update ([078116c](https://github.com/jd-st/jd-project-typescript/commit/078116c61ec709831fa3f5a3b929b18c4c5783db))
+* **api:** manual updates ([9cd68e0](https://github.com/jd-st/jd-project-typescript/commit/9cd68e05337a5a1235b3989b80435698eda74054))
+
+
+### Chores
+
+* break long lines in snippets into multiline ([3c90dd2](https://github.com/jd-st/jd-project-typescript/commit/3c90dd226c45a217257d8da4c9260ab3183d2d1a))
+* **internal:** update `actions/checkout` version ([162ec8b](https://github.com/jd-st/jd-project-typescript/commit/162ec8b2a1e2e377abe229e18a43efeac6642661))
+* **internal:** update lock file ([b5249ec](https://github.com/jd-st/jd-project-typescript/commit/b5249ecff242a5b0b06ebc6a1501833ff134c6c8))
+* **internal:** upgrade babel, qs, js-yaml ([ab9d450](https://github.com/jd-st/jd-project-typescript/commit/ab9d45062053ae0ec087382ac29c2683e82a8c08))
+* **internal:** upgrade brace-expansion and @babel/helpers ([3c3c34a](https://github.com/jd-st/jd-project-typescript/commit/3c3c34a1050bb5141c4a314c18533a5aee201bbf))
+
 ## 0.2.2 (2026-01-06)
 
 Full Changelog: [v0.2.1...v0.2.2](https://github.com/jd-st/jd-project-typescript/compare/v0.2.1...v0.2.2)
