@@ -40,7 +40,7 @@ import {
   UserUpdateParams,
   Users,
 } from './resources/users';
-import { St000re, St000reListInventoryResponse } from './resources/st000re/st000re';
+import { St00000re, St00000reListInventoryResponse } from './resources/st00000re/st00000re';
 import { type Fetch } from './internal/builtin-types';
 import { HeadersLike, NullableHeaders, buildHeaders } from './internal/headers';
 import { FinalRequestOptions, RequestOptions } from './internal/request-options';
@@ -723,12 +723,12 @@ export class JdProject {
   static toFile = Uploads.toFile;
 
   pets: API.Pets = new API.Pets(this);
-  st000re: API.St000re = new API.St000re(this);
+  st00000re: API.St00000re = new API.St00000re(this);
   users: API.Users = new API.Users(this);
 }
 
 JdProject.Pets = Pets;
-JdProject.St000re = St000re;
+JdProject.St00000re = St00000re;
 JdProject.Users = Users;
 
 export declare namespace JdProject {
@@ -749,7 +749,7 @@ export declare namespace JdProject {
     type PetUploadImageParams as PetUploadImageParams,
   };
 
-  export { St000re as St000re, type St000reListInventoryResponse as St000reListInventoryResponse };
+  export { St00000re as St00000re, type St00000reListInventoryResponse as St00000reListInventoryResponse };
 
   export {
     Users as Users,
