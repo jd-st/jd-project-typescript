@@ -26,12 +26,12 @@ describe('resource orders', () => {
     await expect(
       client.st00000re.orders.create(
         {
-          id: 10,
+          id: 1,
           complete: true,
-          petId: 198772,
-          quantity: 7,
+          petId: 1,
+          quantity: 1,
           shipDate: '2019-12-27T18:11:19.117Z',
-          status: 'approved',
+          status: 'placed',
         },
         { path: '/_stainless_unknown_path' },
       ),

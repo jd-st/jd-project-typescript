@@ -10,7 +10,7 @@ const client = new JdProject({
 describe('resource pets', () => {
   // Prism tests are disabled
   test.skip('create: only required params', async () => {
-    const responsePromise = client.pets.create({ name: 'doggie', photoUrls: ['string'] });
+    const responsePromise = client.pets.create({ name: 'take five', photoUrls: ['take five'] });
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -23,12 +23,12 @@ describe('resource pets', () => {
   // Prism tests are disabled
   test.skip('create: required and optional params', async () => {
     const response = await client.pets.create({
-      name: 'doggie',
-      photoUrls: ['string'],
-      id: 10,
-      category: { id: 1, name: 'Dogs' },
+      name: 'take five',
+      photoUrls: ['take five'],
+      id: 1,
+      category: { id: 1, name: 'take five' },
       status: 'available',
-      tags: [{ id: 0, name: 'name' }],
+      tags: [{ id: 1, name: 'take five' }],
     });
   });
 
@@ -46,7 +46,7 @@ describe('resource pets', () => {
 
   // Prism tests are disabled
   test.skip('update: only required params', async () => {
-    const responsePromise = client.pets.update({ name: 'doggie', photoUrls: ['string'] });
+    const responsePromise = client.pets.update({ name: 'take five', photoUrls: ['take five'] });
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -59,12 +59,12 @@ describe('resource pets', () => {
   // Prism tests are disabled
   test.skip('update: required and optional params', async () => {
     const response = await client.pets.update({
-      name: 'doggie',
-      photoUrls: ['string'],
-      id: 10,
-      category: { id: 1, name: 'Dogs' },
+      name: 'take five',
+      photoUrls: ['take five'],
+      id: 1,
+      category: { id: 1, name: 'take five' },
       status: 'available',
-      tags: [{ id: 0, name: 'name' }],
+      tags: [{ id: 1, name: 'take five' }],
     });
   });
 
