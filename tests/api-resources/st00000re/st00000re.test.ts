@@ -8,7 +8,7 @@ const client = new JdProject({
 });
 
 describe('resource st00000re', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('listInventory', async () => {
     const responsePromise = client.st00000re.listInventory();
     const rawResponse = await responsePromise.asResponse();
