@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.3.1 (2026-02-20)
+
+Full Changelog: [v0.3.0...v0.3.1](https://github.com/jd-st/jd-project-typescript/compare/v0.3.0...v0.3.1)
+
+### Bug Fixes
+
+* **client:** avoid memory leak with abort signals ([e9db15d](https://github.com/jd-st/jd-project-typescript/commit/e9db15d560305923fc7759711bd10781040484c1))
+* **client:** avoid removing abort listener too early ([f5140cd](https://github.com/jd-st/jd-project-typescript/commit/f5140cd0fb8246ef5ae187b3a0c7a4d8a5f9ce15))
+
+
+### Chores
+
+* **ci:** upgrade `actions/github-script` ([2f9d100](https://github.com/jd-st/jd-project-typescript/commit/2f9d10014db80dc9fe55a50c099d8d0862bf7524))
+* **client:** do not parse responses with empty content-length ([2fe9da2](https://github.com/jd-st/jd-project-typescript/commit/2fe9da25fa5b39edbb293ae50f03f0cf1e67ddbe))
+* **client:** restructure abort controller binding ([067ab8b](https://github.com/jd-st/jd-project-typescript/commit/067ab8b35e2b18eb1699561ff20ac828e263c0df))
+* **internal/client:** fix form-urlencoded requests ([54cf6f3](https://github.com/jd-st/jd-project-typescript/commit/54cf6f3671b1540089127fc2aa2091cf00f9db60))
+* **internal:** avoid type checking errors with ts-reset ([eb5e6d4](https://github.com/jd-st/jd-project-typescript/commit/eb5e6d47069602f9b9afe8d4760d50de47fedbd4))
+* **internal:** codegen related update ([bbe159c](https://github.com/jd-st/jd-project-typescript/commit/bbe159cc7a4886f38aa6eafa825c393780b969ff))
+* **internal:** remove mock server code ([02de547](https://github.com/jd-st/jd-project-typescript/commit/02de5472950890b11e3680cceea3e928c39df078))
+* **internal:** upgrade pnpm ([9fcae74](https://github.com/jd-st/jd-project-typescript/commit/9fcae7494d61dd3d6c1ecae25a6d6fba4bd62b55))
+* update mock server docs ([88a6a36](https://github.com/jd-st/jd-project-typescript/commit/88a6a36a47b02bb41c12e82be748e1096dc568fb))
+
 ## 0.3.0 (2026-01-20)
 
 Full Changelog: [v0.2.2...v0.3.0](https://github.com/jd-st/jd-project-typescript/compare/v0.2.2...v0.3.0)
