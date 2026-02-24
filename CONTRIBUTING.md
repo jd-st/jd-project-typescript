@@ -60,7 +60,7 @@ $ yarn link jd-project
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global jd-project
+$ pnpm link --global jd-project
 ```
 
 ## Running tests
