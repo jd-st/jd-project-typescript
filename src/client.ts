@@ -737,8 +737,17 @@ export class JdProject {
 
   static toFile = Uploads.toFile;
 
+  /**
+   * Everything about your Pets
+   */
   pets: API.Pets = new API.Pets(this);
+  /**
+   * Access to Petstore orders
+   */
   st00000re: API.St00000re = new API.St00000re(this);
+  /**
+   * Operations about user
+   */
   users: API.Users = new API.Users(this);
 }
 
