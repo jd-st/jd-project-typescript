@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.3.1 (2026-03-08)
+
+Full Changelog: [v0.3.0...v0.3.1](https://github.com/jd-st/jd-project-typescript/compare/v0.3.0...v0.3.1)
+
+### Bug Fixes
+
+* **client:** avoid memory leak with abort signals ([e9db15d](https://github.com/jd-st/jd-project-typescript/commit/e9db15d560305923fc7759711bd10781040484c1))
+* **client:** avoid removing abort listener too early ([f5140cd](https://github.com/jd-st/jd-project-typescript/commit/f5140cd0fb8246ef5ae187b3a0c7a4d8a5f9ce15))
+* **client:** preserve URL params already embedded in path ([90782e3](https://github.com/jd-st/jd-project-typescript/commit/90782e346991891b104e59e87ab0cb50552929de))
+* **docs/contributing:** correct pnpm link command ([0bbcda8](https://github.com/jd-st/jd-project-typescript/commit/0bbcda83293ecccd88479052d6c0ab9d1a4ba0b2))
+
+
+### Chores
+
+* **ci:** skip uploading artifacts on stainless-internal branches ([7a1c2b8](https://github.com/jd-st/jd-project-typescript/commit/7a1c2b8570b997b8794115129d05aef03e6e8dd9))
+* **ci:** upgrade `actions/github-script` ([2f9d100](https://github.com/jd-st/jd-project-typescript/commit/2f9d10014db80dc9fe55a50c099d8d0862bf7524))
+* **client:** do not parse responses with empty content-length ([2fe9da2](https://github.com/jd-st/jd-project-typescript/commit/2fe9da25fa5b39edbb293ae50f03f0cf1e67ddbe))
+* **client:** restructure abort controller binding ([067ab8b](https://github.com/jd-st/jd-project-typescript/commit/067ab8b35e2b18eb1699561ff20ac828e263c0df))
+* **internal/client:** fix form-urlencoded requests ([54cf6f3](https://github.com/jd-st/jd-project-typescript/commit/54cf6f3671b1540089127fc2aa2091cf00f9db60))
+* **internal:** avoid type checking errors with ts-reset ([eb5e6d4](https://github.com/jd-st/jd-project-typescript/commit/eb5e6d47069602f9b9afe8d4760d50de47fedbd4))
+* **internal:** codegen related update ([1df0c2d](https://github.com/jd-st/jd-project-typescript/commit/1df0c2d0a1454de172dafc21dc755000bbcf5dca))
+* **internal:** codegen related update ([ea84289](https://github.com/jd-st/jd-project-typescript/commit/ea8428943dd6f1fa251fb84aa7e32f0a0b5f9b14))
+* **internal:** codegen related update ([bbe159c](https://github.com/jd-st/jd-project-typescript/commit/bbe159cc7a4886f38aa6eafa825c393780b969ff))
+* **internal:** move stringifyQuery implementation to internal function ([cbcabaa](https://github.com/jd-st/jd-project-typescript/commit/cbcabaa899a72e1d03dc11da4bfcef22205b0e89))
+* **internal:** remove mock server code ([02de547](https://github.com/jd-st/jd-project-typescript/commit/02de5472950890b11e3680cceea3e928c39df078))
+* **internal:** upgrade pnpm ([9fcae74](https://github.com/jd-st/jd-project-typescript/commit/9fcae7494d61dd3d6c1ecae25a6d6fba4bd62b55))
+* **internal:** upgrade pnpm version ([2206bb1](https://github.com/jd-st/jd-project-typescript/commit/2206bb13d1bb5f91797a70478d26e6d4a8b94bda))
+* update mock server docs ([88a6a36](https://github.com/jd-st/jd-project-typescript/commit/88a6a36a47b02bb41c12e82be748e1096dc568fb))
+* update placeholder string ([16267ad](https://github.com/jd-st/jd-project-typescript/commit/16267ad41f17bf1be18c5246155f9fb62f5bab66))
+
 ## 0.3.0 (2026-01-20)
 
 Full Changelog: [v0.2.2...v0.3.0](https://github.com/jd-st/jd-project-typescript/compare/v0.2.2...v0.3.0)

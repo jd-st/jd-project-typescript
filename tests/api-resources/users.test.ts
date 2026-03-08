@@ -8,7 +8,7 @@ const client = new JdProject({
 });
 
 describe('resource users', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('create', async () => {
     const responsePromise = client.users.create();
     const rawResponse = await responsePromise.asResponse();
@@ -20,19 +20,19 @@ describe('resource users', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('create: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
       client.users.create(
         {
-          id: 10,
-          email: 'john@email.com',
-          firstName: 'John',
-          lastName: 'James',
-          password: '12345',
-          phone: '12345',
-          username: 'theUser',
+          id: 1,
+          email: 'take five',
+          firstName: 'take five',
+          lastName: 'take five',
+          password: 'take five',
+          phone: 'take five',
+          username: 'take five',
           userStatus: 1,
         },
         { path: '/_stainless_unknown_path' },
@@ -40,7 +40,7 @@ describe('resource users', () => {
     ).rejects.toThrow(JdProject.NotFoundError);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieve', async () => {
     const responsePromise = client.users.retrieve('username');
     const rawResponse = await responsePromise.asResponse();
@@ -52,7 +52,7 @@ describe('resource users', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('update', async () => {
     const responsePromise = client.users.update('username');
     const rawResponse = await responsePromise.asResponse();
@@ -64,20 +64,20 @@ describe('resource users', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('update: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
       client.users.update(
         'username',
         {
-          id: 10,
-          email: 'john@email.com',
-          firstName: 'John',
-          lastName: 'James',
-          password: '12345',
-          phone: '12345',
-          username: 'theUser',
+          id: 1,
+          email: 'take five',
+          firstName: 'take five',
+          lastName: 'take five',
+          password: 'take five',
+          phone: 'take five',
+          username: 'take five',
           userStatus: 1,
         },
         { path: '/_stainless_unknown_path' },
@@ -85,7 +85,7 @@ describe('resource users', () => {
     ).rejects.toThrow(JdProject.NotFoundError);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('delete', async () => {
     const responsePromise = client.users.delete('username');
     const rawResponse = await responsePromise.asResponse();
@@ -97,7 +97,7 @@ describe('resource users', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('createWithList', async () => {
     const responsePromise = client.users.createWithList();
     const rawResponse = await responsePromise.asResponse();
@@ -109,7 +109,7 @@ describe('resource users', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('createWithList: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
@@ -117,13 +117,13 @@ describe('resource users', () => {
         {
           items: [
             {
-              id: 10,
-              email: 'john@email.com',
-              firstName: 'John',
-              lastName: 'James',
-              password: '12345',
-              phone: '12345',
-              username: 'theUser',
+              id: 1,
+              email: 'take five',
+              firstName: 'take five',
+              lastName: 'take five',
+              password: 'take five',
+              phone: 'take five',
+              username: 'take five',
               userStatus: 1,
             },
           ],
@@ -133,7 +133,7 @@ describe('resource users', () => {
     ).rejects.toThrow(JdProject.NotFoundError);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('login', async () => {
     const responsePromise = client.users.login();
     const rawResponse = await responsePromise.asResponse();
@@ -145,7 +145,7 @@ describe('resource users', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('login: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
@@ -156,7 +156,7 @@ describe('resource users', () => {
     ).rejects.toThrow(JdProject.NotFoundError);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('logout', async () => {
     const responsePromise = client.users.logout();
     const rawResponse = await responsePromise.asResponse();

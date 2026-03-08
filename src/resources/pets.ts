@@ -6,6 +6,9 @@ import { buildHeaders } from '../internal/headers';
 import { RequestOptions } from '../internal/request-options';
 import { path } from '../internal/utils/path';
 
+/**
+ * Everything about your Pets
+ */
 export class Pets extends APIResource {
   /**
    * Add a new pet to the store
@@ -13,8 +16,8 @@ export class Pets extends APIResource {
    * @example
    * ```ts
    * const pet = await client.pets.create({
-   *   name: 'doggie',
-   *   photoUrls: ['string'],
+   *   name: 'take five',
+   *   photoUrls: ['take five'],
    * });
    * ```
    */
@@ -40,8 +43,8 @@ export class Pets extends APIResource {
    * @example
    * ```ts
    * const pet = await client.pets.update({
-   *   name: 'doggie',
-   *   photoUrls: ['string'],
+   *   name: 'take five',
+   *   photoUrls: ['take five'],
    * });
    * ```
    */
