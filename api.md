@@ -25,23 +25,23 @@ Methods:
 - <code title="post /pet/{petId}">client.pets.<a href="./src/resources/pets.ts">updateByID</a>(petID, { ...params }) -> void</code>
 - <code title="post /pet/{petId}/uploadImage">client.pets.<a href="./src/resources/pets.ts">uploadImage</a>(petID, image, { ...params }) -> PetUploadImageResponse</code>
 
-# St000re
+# St00000re
 
 Types:
 
-- <code><a href="./src/resources/st000re/st000re.ts">St000reListInventoryResponse</a></code>
+- <code><a href="./src/resources/st00000re/st00000re.ts">St00000reListInventoryResponse</a></code>
 
 Methods:
 
-- <code title="get /st000re/inventory">client.st000re.<a href="./src/resources/st000re/st000re.ts">listInventory</a>() -> St000reListInventoryResponse</code>
+- <code title="get /st00000re/inventory">client.st00000re.<a href="./src/resources/st00000re/st00000re.ts">listInventory</a>() -> St00000reListInventoryResponse</code>
 
 ## Orders
 
 Methods:
 
-- <code title="post /st000re/order">client.st000re.orders.<a href="./src/resources/st000re/orders.ts">create</a>({ ...params }) -> Order</code>
-- <code title="get /st000re/order/{orderId}">client.st000re.orders.<a href="./src/resources/st000re/orders.ts">retrieve</a>(orderID) -> Order</code>
-- <code title="delete /st000re/order/{orderId}">client.st000re.orders.<a href="./src/resources/st000re/orders.ts">delete</a>(orderID) -> void</code>
+- <code title="post /st00000re/order">client.st00000re.orders.<a href="./src/resources/st00000re/orders.ts">create</a>({ ...params }) -> Order</code>
+- <code title="get /st00000re/order/{orderId}">client.st00000re.orders.<a href="./src/resources/st00000re/orders.ts">retrieve</a>(orderID) -> Order</code>
+- <code title="delete /st00000re/order/{orderId}">client.st00000re.orders.<a href="./src/resources/st00000re/orders.ts">delete</a>(orderID) -> void</code>
 
 # Users
 

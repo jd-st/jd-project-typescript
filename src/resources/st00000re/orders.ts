@@ -7,20 +7,23 @@ import { buildHeaders } from '../../internal/headers';
 import { RequestOptions } from '../../internal/request-options';
 import { path } from '../../internal/utils/path';
 
+/**
+ * Access to Petstore orders
+ */
 export class Orders extends APIResource {
   /**
    * Place a new order in the store
    *
    * @example
    * ```ts
-   * const order = await client.st000re.orders.create();
+   * const order = await client.st00000re.orders.create();
    * ```
    */
   create(
     body: OrderCreateParams | null | undefined = {},
     options?: RequestOptions,
   ): APIPromise<Shared.Order> {
-    return this._client.post('/st000re/order', { body, ...options });
+    return this._client.post('/st00000re/order', { body, ...options });
   }
 
   /**
@@ -29,11 +32,11 @@ export class Orders extends APIResource {
    *
    * @example
    * ```ts
-   * const order = await client.st000re.orders.retrieve(0);
+   * const order = await client.st00000re.orders.retrieve(0);
    * ```
    */
   retrieve(orderID: number, options?: RequestOptions): APIPromise<Shared.Order> {
-    return this._client.get(path`/st000re/order/${orderID}`, options);
+    return this._client.get(path`/st00000re/order/${orderID}`, options);
   }
 
   /**
@@ -42,11 +45,11 @@ export class Orders extends APIResource {
    *
    * @example
    * ```ts
-   * await client.st000re.orders.delete(0);
+   * await client.st00000re.orders.delete(0);
    * ```
    */
   delete(orderID: number, options?: RequestOptions): APIPromise<void> {
-    return this._client.delete(path`/st000re/order/${orderID}`, {
+    return this._client.delete(path`/st00000re/order/${orderID}`, {
       ...options,
       headers: buildHeaders([{ Accept: '*/*' }, options?.headers]),
     });
