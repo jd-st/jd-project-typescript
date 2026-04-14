@@ -16,8 +16,8 @@ export class Pets extends APIResource {
    * @example
    * ```ts
    * const pet = await client.pets.create({
-   *   name: 'take five',
-   *   photoUrls: ['take five'],
+   *   name: 'doggie',
+   *   photoUrls: ['string'],
    * });
    * ```
    */
@@ -43,8 +43,8 @@ export class Pets extends APIResource {
    * @example
    * ```ts
    * const pet = await client.pets.update({
-   *   name: 'take five',
-   *   photoUrls: ['take five'],
+   *   name: 'doggie',
+   *   photoUrls: ['string'],
    * });
    * ```
    */
