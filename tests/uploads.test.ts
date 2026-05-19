@@ -1,7 +1,6 @@
 import fs from 'fs';
 import type { ResponseLike } from 'jd-project/internal/to-file';
 import { toFile } from 'jd-project/core/uploads';
-import { File } from 'node:buffer';
 
 class MyClass {
   name: string = 'foo';

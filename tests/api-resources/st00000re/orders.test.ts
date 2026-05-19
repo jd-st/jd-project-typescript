@@ -8,9 +8,9 @@ const client = new JdProject({
 });
 
 describe('resource orders', () => {
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('create', async () => {
-    const responsePromise = client.st000re.orders.create();
+    const responsePromise = client.st00000re.orders.create();
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -20,11 +20,11 @@ describe('resource orders', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('create: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
-      client.st000re.orders.create(
+      client.st00000re.orders.create(
         {
           id: 10,
           complete: true,
@@ -38,9 +38,9 @@ describe('resource orders', () => {
     ).rejects.toThrow(JdProject.NotFoundError);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('retrieve', async () => {
-    const responsePromise = client.st000re.orders.retrieve(0);
+    const responsePromise = client.st00000re.orders.retrieve(0);
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -50,9 +50,9 @@ describe('resource orders', () => {
     expect(dataAndResponse.response).toBe(rawResponse);
   });
 
-  // Prism tests are disabled
+  // Mock server tests are disabled
   test.skip('delete', async () => {
-    const responsePromise = client.st000re.orders.delete(0);
+    const responsePromise = client.st00000re.orders.delete(0);
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
